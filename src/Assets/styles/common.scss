@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: "Courier New", Courier, monospace;
+  header {
+    height: 8vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .title {
+      padding: 0 20px;
+    }
+    .button-holder {
+      padding: 0 30px;
+      button {
+        padding: 10px 20px;
+        background-color: black;
+        color: white;
+        border-radius: 3px;
+        border: none;
+        cursor: pointer;
+      }
+    }
+  }
+  .container {
+    display: flex;
+    height: 90vh;
+    width: 100vw;
+  }
+}

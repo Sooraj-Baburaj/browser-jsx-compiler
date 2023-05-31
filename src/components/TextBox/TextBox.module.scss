@@ -1,0 +1,14 @@
+.textareaWrapper {
+    height: 100%;
+    width: 50%;
+    box-sizing: content-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    textarea {
+        height: 98%;
+        width: 98%;
+        font-size: 20px;
+        padding: 8px;
+    }
+}
